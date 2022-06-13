@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mi_portfolio_con_react/static/css/main.649795b1.css",
+    "main.js": "/mi_portfolio_con_react/static/js/main.7d4f6aa1.js",
+    "static/media/travelBlog2.png": "/mi_portfolio_con_react/static/media/travelBlog2.0e643f0f95d907278871.png",
+    "static/media/travelBlog.png": "/mi_portfolio_con_react/static/media/travelBlog.0ffcc199e641d37e04a8.png",
+    "static/media/gameWebDevelopment.png": "/mi_portfolio_con_react/static/media/gameWebDevelopment.50c03dfc624b8733077a.png",
+    "static/media/error-mee.png": "/mi_portfolio_con_react/static/media/error-mee.cea9512ec11efe7c3448.png",
+    "static/media/apptodo.png": "/mi_portfolio_con_react/static/media/apptodo.3bfe3d04bc72efd9afb6.png",
+    "static/media/landpage.png": "/mi_portfolio_con_react/static/media/landpage.362ccfdb1606d30245b5.png",
+    "static/media/me.png": "/mi_portfolio_con_react/static/media/me.9448d71cd70ddc59a60c.png",
+    "static/media/GameBoy.png": "/mi_portfolio_con_react/static/media/GameBoy.613f996d3ac230feb9cf.png",
+    "index.html": "/mi_portfolio_con_react/index.html",
+    "main.649795b1.css.map": "/mi_portfolio_con_react/static/css/main.649795b1.css.map",
+    "main.7d4f6aa1.js.map": "/mi_portfolio_con_react/static/js/main.7d4f6aa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.649795b1.css",
+    "static/js/main.7d4f6aa1.js"
+  ]
+}
