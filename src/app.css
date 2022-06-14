@@ -1,0 +1,25 @@
+.App{
+    margin: 1rem;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 0 1rem;
+}
+.header-nav h1{
+    font-size: var(--FontSize-xl);
+    position: relative;
+    padding-right: 1rem;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    animation: move-text 2s .5s forwards;
+}
+
+@keyframes move-text{
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}

@@ -1,0 +1,29 @@
+*{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+	text-decoration:none;
+	text-transform:capitalize;
+	transition: all .2s linear;
+	font-size: var(--FontSize-m);
+	line-height: 5rem;
+}
+html {
+	font-size:62.5%;
+	overflow-x:hidden;
+}
+body{
+	height: 100vh;
+}
+
+:root{
+    --black:#13131a;
+    --white:#fff;
+	--grey:#5c5c5c;
+    --FontSize-s: 1rem;
+    --FontSize-m: 1.5rem;
+    --FontSize-l: 2rem;
+    --FontSize-xl: 2.375rem;
+}

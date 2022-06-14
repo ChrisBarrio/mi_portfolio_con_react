@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    margin: 1rem 0;
+    padding: 0 40rem;
+}
+.container-home h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    margin: 3rem 0;
+    letter-spacing: 1rem;
+}
+img{
+    width: 40%;
+    border: 2px solid;
+    margin-top: 1rem;
+}
+h2{
+    margin: 3rem 0;
+    font-size: var(--FontSize-xl);
+}
+p{
+    margin: 1rem 0;
+    line-height: 2rem;
+    text-transform: none;
+    text-align: justify;
+}
+/* animacion de tipiado a maquina */
+
+.css-typing{
+    border-right: .15em solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+h1{
+    position: relative;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 2.5px;
+    background-color: black;
+    animation: titilar .8s ease 0s infinite;
+}
+
+@keyframes titilar{
+    0%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+
+.css-typing:nth-child(1) {
+    padding-left: 2rem;
+    width: 66rem;
+    -webkit-animation: type 2s steps(40, end), blink .4s step-end infinite alternate;
+    animation: type 2s steps(40, end), blink .4s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

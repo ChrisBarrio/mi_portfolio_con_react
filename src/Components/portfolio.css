@@ -1,0 +1,50 @@
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr));
+    grid-gap:2rem;
+    padding: 1rem;
+    border: 1px solid;
+    text-align: center;
+    justify-items: center;
+
+}
+figure{
+    display: grid;
+    width: 30rem;
+    border: 2px solid;
+    padding: 1rem;
+    background-color: rgb(246, 238, 226);
+    border-right-width: 5px;
+    border-bottom-width: 8px;
+    border-bottom-left-radius: 45deg;
+    clip-path: polygon(0 0, 23% 0, 0 0, 0 14%);
+    animation: opening 2s .5s forwards;
+}
+@keyframes opening{
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+figure img{
+    width: 100%;
+    height: 30rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+figure img:hover{
+    opacity: .6;
+}
+.texto--hover{
+    text-align: center;
+    text-transform: none;
+    clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+    animation: show-text 1s 2s forwards;
+}
+
+@keyframes show-text{
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}

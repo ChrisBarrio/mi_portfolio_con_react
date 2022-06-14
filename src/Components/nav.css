@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+}
+h1{
+    margin: 0;
+}
+.links {
+    margin: 0 1rem 0 0;
+    color: white;
+    text-align: center;
+}
+.links:focus{
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-social{
+    display: flex;
+    align-content: center;
+    height: 100%;
+}
+.nav-social .item-social{
+    margin: 0 1rem;
+}
+a{
+    color: var(--white);
+}
