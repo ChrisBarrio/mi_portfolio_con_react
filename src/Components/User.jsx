@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 const User = () => {
 
     
-    // console.log(useParams());
     const{id} = useParams();
     console.log(id);
 
